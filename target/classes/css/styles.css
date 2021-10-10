@@ -1,0 +1,23 @@
+@font-face{
+  font-family: 'GloriousFree';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://edencoding.com/wp-content/uploads/2021/02/GloriousFree-dBR6.ttf') format('truetype');
+}
+
+.app-title{
+    -fx-font: 36px 'Glorious Free';
+    -fx-max-width: 100000;
+    -fx-alignment: center;
+    -fx-color: #000000;
+}
+
+.text-field {
+  -fx-border-color: grey;
+  -fx-border-width: 0 0 1 0;
+  -fx-background-color: transparent;
+}
+
+.text-field:focused {
+    -fx-border-color: -fx-focus-color;
+}
